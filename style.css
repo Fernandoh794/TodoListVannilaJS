@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+ color: white;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 4em;
+    margin-top: 1.5em;
+}
+
+
+.container ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+    font-size: 3em;
+    list-style: none;
+    gap: 20px;
+}
+
+
+
+.container li {
+    border: 1px solid white;
+    width: 50vw;
+}
+
+.list a {
+
+    color: red; 
+    font-size: 0.5em;
+    
+
+}
+
+
+.container h6 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 5vh;
+}
+
+
+.container input {
+    width: 25vw;
+    height: 3vh;
+}
+
+.novoItem {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+}
+
+.novoItem button {
+    background-color: rgb(33, 109, 109);
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    width: 5vw;
+    font-size: 1.3em;
+}
+
+
+
+li {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
